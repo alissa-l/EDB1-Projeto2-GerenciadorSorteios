@@ -1,4 +1,4 @@
-TARGET=gerenciador_restaurante
+TARGET=gerenciador_sorteios
 GCC=gcc
 GCCFLAGS=-Wall
 SRC=src
