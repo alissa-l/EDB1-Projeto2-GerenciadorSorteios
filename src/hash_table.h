@@ -3,8 +3,16 @@
 
 #include "concurso.h"
 
+/**
+ * @brief Tamanho da tabela hash.
+ * 
+ */
 #define TAMANHO_TABELA 5000
 
+/**
+ * @brief Estrutura da tabela hash.
+ * 
+ */
 typedef struct {
     Concurso* tabela[TAMANHO_TABELA];
 } HashTable;
